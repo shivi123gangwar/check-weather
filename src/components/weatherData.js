@@ -25,7 +25,7 @@ class WeatherData extends React.Component {
               <div>
                 <p className="text-capitalize mb-0">{weath.description}</p>
                 <img
-                  src={`http://openweathermap.org/img/w/${weath.icon}.png`}
+                  src={`https://openweathermap.org/img/w/${weath.icon}.png`}
                   alt="wthr img"
                   width="100"
                 />
